@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="Bp5GyJoATt6kgRA1g7Hj" name="Page-1">
+        <mxGraphModel dx="746" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="160" width="150" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&amp;nbsp;Products" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="130" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="products [ ]&lt;br&gt;&lt;div&gt;getProducts()&lt;/div&gt;&lt;div&gt;searchProduct(id)&lt;/div&gt;&lt;div&gt;updateStock(id, cant)&lt;/div&gt;&lt;div&gt;stockProductsAvailable()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="175" width="150" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="427.5" y="340" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="ShoppingCar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="472.5" y="310" width="105" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="constructor( )&lt;div&gt;- car [ ]&lt;/div&gt;&lt;div&gt;get car( )&lt;/div&gt;&lt;div&gt;set car(newCar)&lt;/div&gt;&lt;div&gt;get quantityProducts()&lt;/div&gt;&lt;div&gt;get total( )&lt;/div&gt;&lt;div&gt;addProduct(products, name, quantity)&lt;/div&gt;&lt;div&gt;removeProduct(name)&lt;/div&gt;&lt;div&gt;updateProduct(name)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="340" width="190" height="195" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

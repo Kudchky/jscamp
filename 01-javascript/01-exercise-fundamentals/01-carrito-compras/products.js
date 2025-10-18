@@ -114,7 +114,7 @@ function stockProductsAvailable() {
     return products.filter((product) => product.stock > 0);
 }
 
-module.exports = {
+export default {
     products,
     getProducts,
     searchProduct,

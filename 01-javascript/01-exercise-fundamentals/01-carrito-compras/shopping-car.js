@@ -2,7 +2,7 @@
 Crea un carrito que gestione productos con métodos para agregar, remover, calcular total y aplicar descuentos.
  */
 
-const { updateStock } = require("./products");
+import { updateStock } from "./products";
 
 class ShoppingCar {
     constructor() {
@@ -52,6 +52,8 @@ class ShoppingCar {
     removeProduct(name) {
         this._car = this._car.filter((product) => product.name !== name);
     }
-
-
 }
+
+export default {
+    ShoppingCar,
+};
