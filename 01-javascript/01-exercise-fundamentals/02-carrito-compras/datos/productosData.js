@@ -95,30 +95,18 @@ function verificarStock(productId, cantidadSolicitada) {
     if (typeof cantidadSolicitada !== "number" || cantidadSolicitada <= 0) {
         return false;
     }
-    return productos.some(
+    return productos.find(
         (el) => el.id === productId && el.stock >= cantidadSolicitada
     );
 }
 
-function actualizarStock(id, cantidadVendida) {
-    if (verificarStock(id, cantidadVendida)) {
-        productos.find((producto) => producto.id === id).stock -=
-            cantidadVendida;
-        return true;
-    }
-
-    return false;
-}
-
 function buscarProducto(id) {
-    const producto = productos.find((producto) => producto.id === id);
-    return producto ? { ...producto } : null;
+    return productos.find((producto) => producto.id === id);
 }
 
 export {
     obtenerProductos,
     mostrarProductos,
     verificarStock,
-    actualizarStock,
     buscarProducto,
 };
