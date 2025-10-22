@@ -693,6 +693,12 @@ proyecto/
 ├─ datos/
 │  └─ inicial.js
 └─ main.js
+
+carrito-compras/
+├── entidades/          # ✅ LO QUE ES (datos + comportamiento)
+├── datos/              # ✅ LO QUE TIENE (información estática)
+├── app.js              # ✅ LO QUE HACE (orquestación)
+└── package.json        # ✅ CONFIGURACIÓN
 ```
 
 ### 9.2 Convenciones y Estándares
